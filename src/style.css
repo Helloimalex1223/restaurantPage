@@ -7,3 +7,15 @@ body
 {
     width: 400px;
 }
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > button
+{
+    padding: 2rem;
+    border: 2px solid black;
+}

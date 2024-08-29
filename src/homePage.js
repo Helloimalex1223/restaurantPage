@@ -1,4 +1,4 @@
-import pizzaImg from "./pizzaImg.jpg";
+// import pizzaImg from "./pizzaImg.jpg";
 
 export function buildHomePage()
 {
@@ -17,8 +17,8 @@ export function buildHomePage()
     content.appendChild(paraInfo);
 
     //import image
-    const image = document.createElement("img");
-    image.classList.add("pizzImg");
-    image.src = pizzaImg;
-    document.body.appendChild(image);
+    // const image = document.createElement("img");
+    // image.classList.add("pizzImg");
+    // image.src = pizzaImg;
+    // document.body.appendChild(image);
 }
